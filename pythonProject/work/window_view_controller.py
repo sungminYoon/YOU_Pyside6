@@ -22,7 +22,7 @@ class Window_view_controller(QWidget):
         self.view_setup()
 
     def view_setup(self):
-        print('Window_view_controller init')
+        print('Window_view_controller view_setup')
 
         # 베이스 레이아웃 생성
         from_box = QVBoxLayout()
